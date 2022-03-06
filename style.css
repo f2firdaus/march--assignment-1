@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    width: 100vw;
+    height: 60px;
+    background-color: #F5F5F5;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;;
+    position: fixed;
+    top: 0px;
+   
+    
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    /* right: 0px; */
+    align-items: center;
+
+}
+.logo-text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo{
+    padding: 14px;
+    width: 140px
+}
+.logo-text a{
+    color: black;
+}
+
+.btn{
+    padding: 4px 36px;
+    cursor: pointer;
+    margin-right: 40px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.box{
+    width: 100vw;
+    height: 500px;
+
+   
+    background-color: #E9F7F1;
+}
+.headline{
+    padding: 80px;
+    font-size: 20px;
+    font-weight:bolder;
+}
+.pitch{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.jobs{
+    /* margin-left: 5px; */
+    padding: 80px;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.apply-btn{
+   padding: 80px;
+}
+.btn1{
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color: #29B475;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #29B475;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: #10973F;
+}
+.course-container{
+    width: 100vw;
+    height:60vh;
+    background-color: white;
+
+}
+.full-stack{
+    text-align: center;
+    padding: 40px;
+    
+}
+.course-details{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.course-name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.eligible,.duration,.class-timing,.salary{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-align: center;
+    padding: 40px;
+    
+
+}
+.bold1{
+    font-weight: bold;
+    padding: 10px;
+}
+
+.apply-btn1{
+padding: 60px;
+text-align: center;    
+
+}
+.btn2{
+    padding: 12px 30px;
+    background-color: #29B475;
+    border: 1px solid #29B475;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.btn2:hover{
+    background-color: #10973F;
+    cursor: pointer;
+    
+}
